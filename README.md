@@ -10,11 +10,7 @@ The primary objective is to identify the optimal combination of tyre compounds a
 
 ## Dashboard Preview
 
-> Add your Streamlit dashboard screenshot inside the `figures` folder and update the filename below.
-
-```text
 figures/Dashboard.png
-```
 
 ---
 
