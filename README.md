@@ -1,83 +1,97 @@
 # 🏎️ Formula One Race Strategy Optimization Using Monte Carlo Simulation and Genetic Algorithm
 
-## Overview
+<p align="center">
+  <img src="figures/Dashboard.png" width="900">
+</p>
 
-This project presents an interactive Formula One race strategy decision support system developed using Python, Monte Carlo Simulation, and Genetic Algorithms (GA). The framework is designed to evaluate and optimize race strategies under uncertain racing conditions by integrating tyre performance modelling, Safety Car deployment, weather uncertainty, and stochastic race events.
-
-The primary objective is to identify the optimal combination of tyre compounds and pit stop timing that minimizes total race time while accounting for uncertainty commonly observed in Formula One racing.
-
----
-
-## Dashboard Preview
-
-figures/Dashboard.png
+<p align="center">
+An interactive Formula One race strategy decision support system developed using Monte Carlo Simulation and Genetic Algorithms under uncertain race conditions.
+</p>
 
 ---
 
-## Research Objective
+# Overview
+
+This project presents an interactive Formula One race strategy optimization framework developed using Python, Monte Carlo Simulation, and Genetic Algorithms (GA).
+
+The framework evaluates and optimizes race strategies by incorporating tyre performance modelling, tyre degradation behaviour, Safety Car deployment, weather uncertainty, and stochastic race events. The developed system allows users to simulate race scenarios, compare strategies, optimize pit-stop timing, and obtain near-optimal race strategies through an interactive Streamlit dashboard.
+
+---
+
+# Research Objectives
 
 The objectives of this project are to:
 
 - Develop a Formula One race simulation model using a lap-by-lap approach.
 - Model tyre performance based on tyre pace and degradation characteristics.
-- Incorporate uncertainty through Safety Car deployment and weather events.
+- Simulate uncertain race conditions through Safety Car and weather events.
 - Evaluate race strategies using Monte Carlo Simulation.
-- Optimize pit stop timing using brute-force search.
+- Optimize pit-stop timing using brute-force optimization.
 - Identify near-optimal race strategies using Genetic Algorithms.
 - Develop an interactive dashboard for strategy analysis and decision support.
 
 ---
 
-## Key Features
+# Features
 
-### ✅ Race Simulation Model
+## ✅ Race Simulation Model
 
 - Lap-by-lap race simulation
 - Race time calculation
-- Pit stop modelling
-- Strategy evaluation
+- Pit-stop modelling
+- Strategy evaluation framework
 
-### ✅ Tyre Performance Modelling
+## ✅ Tyre Performance Modelling
 
-- Soft, Medium, and Hard compounds
+- Soft compound modelling
+- Medium compound modelling
+- Hard compound modelling
 - Tyre pace model
-- Piecewise tyre degradation model
-- Tyre cliff behaviour
+- Piecewise degradation model
 
-### ✅ Uncertainty Modelling
+## ✅ Uncertainty Modelling
 
 - Driver performance variability
-- Safety Car probability model
-- Rain event modelling
+- Safety Car deployment probability
+- Weather uncertainty modelling
 - Random race disturbances
 
-### ✅ Monte Carlo Simulation
+## ✅ Monte Carlo Simulation
 
 - Statistical race analysis
-- Large-scale simulation runs
-- Performance distribution analysis
+- Multiple race iterations
+- Race-time distribution analysis
 - Mean, best, worst, and standard deviation metrics
 
-### ✅ Optimization
+## ✅ Optimization
 
+- Strategy comparison
 - Brute-force optimization
-- Pit stop optimization
+- Pit-stop optimization
 - Genetic Algorithm optimization
-- Strategy comparison analysis
 
-### ✅ Interactive Dashboard
+## ✅ Interactive Dashboard
 
 - Single Strategy Analysis
 - Strategy Comparison
 - Pit Stop Optimization
 - Genetic Algorithm Optimization
-- Interactive visualization
+- Interactive visual analytics
 
 ---
 
-## Methodology
+# Dashboard Modules
 
-The overall workflow of the system is shown below:
+| Module | Function |
+|----------|----------|
+| Single Strategy Analysis | Evaluate a user-defined strategy |
+| Strategy Comparison | Compare multiple tyre strategies |
+| Pit Stop Optimization | Determine the best pit-stop lap |
+| Genetic Algorithm | Search for near-optimal race strategies |
+
+---
+
+# Methodology
 
 ```text
 Input Parameters
@@ -109,7 +123,7 @@ Optimal Strategy
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |------------|----------|
@@ -118,11 +132,11 @@ Optimal Strategy
 | Pandas | Data processing |
 | Matplotlib | Data visualization |
 | Streamlit | Interactive dashboard |
-| PyGAD | Genetic Algorithm implementation |
+| PyGAD | Genetic Algorithm optimization |
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
 F1-Race-Strategy-Optimization
@@ -152,7 +166,7 @@ F1-Race-Strategy-Optimization
 
 ---
 
-## Installation
+# Installation
 
 Clone the repository:
 
@@ -160,19 +174,19 @@ Clone the repository:
 git clone https://github.com/najwazaqirah98/F1-Race-Strategy-Optimization.git
 ```
 
-Navigate into the project folder:
+Navigate to the project directory:
 
 ```bash
 cd F1-Race-Strategy-Optimization
 ```
 
-Install required packages:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Streamlit dashboard:
+Launch the dashboard:
 
 ```bash
 streamlit run app.py
@@ -180,31 +194,31 @@ streamlit run app.py
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-Potential future extensions include:
+Potential future developments include:
 
 - Multi-stop strategy optimization
 - Fuel consumption modelling
 - Dynamic weather forecasting
 - Driver aggressiveness modelling
 - Reinforcement Learning optimization
-- Real-world Formula One telemetry integration
+- Real-time telemetry integration
 
 ---
 
-## Research Contribution
+# Research Contribution
 
-This project contributes an interactive Formula One race strategy decision support system that combines tyre performance modelling, uncertainty modelling, Monte Carlo Simulation, and Genetic Algorithm optimization. The framework provides a practical approach for evaluating and optimizing race strategies under uncertain race conditions while offering an intuitive dashboard for visualization and analysis.
+This project contributes an interactive Formula One race strategy decision support system that integrates tyre performance modelling, uncertainty modelling, Monte Carlo Simulation, and Genetic Algorithm optimization within a single framework. The developed platform enables users to evaluate, compare, and optimize race strategies under uncertain operating conditions through an intuitive graphical dashboard.
 
 ---
 
-## Author
+# Author
 
 **Najwa Zaqirah Taufik**
 
 ---
 
-## License
+# License
 
 This project is released for academic and research purposes.
